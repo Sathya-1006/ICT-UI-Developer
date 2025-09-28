@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Music Player</title>
+
+        <style>
+            .heading{
+                text-align:center;
+                background-color:green;
+                height:70px;
+                padding:10px;
+                font-size:50px;
+            }
+            .headers{
+                display:flex;
+                justify-content:space-evenly;
+                
+            }
+            .a{
+                text-decoration:none;
+                color:grey;
+                font-size:20px;
+            }
+
+            .a:hover{
+                color:yellow;
+                background-color:#8df2b2;
+                padding:10px;
+                border-radius:10px;
+            }
+
+            .sec{
+                display:flex;
+                justify-content:space-evenly;
+                background-color:grey;
+                height:16px;
+                padding:20px;
+                width:40%;
+                text-align:center;
+               
+            }
+            .sec:hover{
+                background-color:green;
+                border-radius:150px;
+            }
+            
+
+            #foot{
+                display:flex;
+                justify-content:space-evenly;
+                background-color:#8df2b2;
+            }
+            h3{
+                background-color:green;
+                height:30px;
+                padding:10px;
+                width:30%;
+                border-radius:50px;
+                text-align:center;
+                display:flex;
+                justify-content:center;
+            }
+            
+
+
+        </style>
+    
+    </head>
+
+    <body>
+        <h1 class="heading">Music player</h1>
+        <header class="headers"> 
+            <a class="a" href="#home">Home</a>
+            <a class="a" href="#about">About</a>
+            <a class="a" href="#playlist">Playlist</a>
+            <a class="a" href="#foot">Contact</a>
+        </header>
+        <hr>
+
+        
+
+        <div id="home">
+            <h1>Home</h1>
+            <p> Welcome to Music player, your all-in-one music hub.</p>
+<p>Stream your favorite tracks, discover new artists, and create playlists that match every mood. Whether you’re relaxing, working out, or just vibing, our player delivers high-quality sound with a sleek, easy-to-use interface.
+
+Start listening now and let the music move you.
+</p> <hr>
+
+        </div>
+        <div id="about">
+            <h1>About</h1>
+                <p>At Music player, we believe music is more than just sound—it’s an experience.</p>
+                <p>Our platform was built to make listening effortless, fun, and personal. With a library that spans every genre and era, we empower listeners to explore, connect, and create playlists that reflect their unique taste.
+
+                    Whether you’re discovering hidden gems, revisiting old favorites, or sharing tunes with friends, our mission is simple: to bring people closer through music.
+                </p>
+            <hr>
+        </div>
+         <h1 id="playlist">Playlist</h1>
+        <div>
+           <h3>Happy songs</h3><br>
+
+           <p>Jolly-O-Gymkhana</p>
+           <audio src="./asset/mp3/Jolly-O-Gymkhana.mp3" controls></audio><br>
+           <p>Mudhal nee Mudivum nee</p><br/>
+           <audio src="./asset/mp3/Mudhal-Nee-Mudivum-Nee.mp3" controls></audio>
+          
+           <h3>Sad songs</h3><br>
+
+           <p>Veezhaadhae</p><br/>
+           <audio src="./asset/mp3/Veezhaadhae.mp3" controls></audio><br/>
+           <p>Beast-Theme</p><br/>
+           <audio src="./asset/mp3/Beast-Theme.mp3" controls></audio><br/>
+           <p>Neel-Kodugal</p><br/>
+           <audio src="./asset/mp3/Neel-Koadugaal.mp3" controls></audio><br/>
+           
+           <h3>Latest Hit</h3><br>
+
+           <p>Beast-Mode</p><br/>
+           <audio src="./asset/mp3/Beast-Mode.mp3" controls></audio><br/>
+           <p>Nedunaal</p><br/>
+           <audio src="./asset/mp3/Nedunaal.mp3" controls></audio>
+           <p>Kaatrilae</p><br/>
+           <audio src="./asset/mp3/Kaatrilae.mp3" controls></audio>
+
+        
+           <h3>Vibe songs</h3><br>
+
+           <p>Arabic-Kuthu</p><br/>
+           <audio src="./asset/mp3/Arabic-Kuthu.mp3" controls></audio>
+           <p>Pudhidhaai</p><br/>
+           <audio src="./asset/mp3/Pudhidhaai.mp3" controls></audio>
+
+        </div>
+        <hr>
+        <footer id="foot">
+            
+            <p>Instagram<p>
+            <p>You tube</p>
+            <p>Facebook</p>
+        </footer>
+
+    </body>
+
+</html>
